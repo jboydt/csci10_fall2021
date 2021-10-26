@@ -58,8 +58,7 @@ begin LabSixteen;
     stdout.put("2. Test to see if it is even", nl);
     stdout.put("3. Reverse its sign", nl);
     stdout.put("4. Test to see if it is prime", nl);
-    stdout.put("your choice: ");
-    getInt8("your choice", 1, 4);
+    getInt8("your choice: ", 1, 4);
 
     console.cls();
 
@@ -133,7 +132,7 @@ begin LabSixteen;
   forever
     console.cls();
 
-    getInt8("Please enter an int8: ", 1, 20);
+    getInt8("Please enter a number between 1-20: ", 1, 20);
     mov(al, input);
 
     stdout.put(nl, "counting up...", nl);
