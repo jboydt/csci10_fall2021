@@ -10,7 +10,7 @@ static
   numberOne: int8;
   numberTwo: int8;
 
-// Reads in an uns8. Will catch exceptions if user attempts to input
+// Reads in an int8. Will catch exceptions if user attempts to input
 // a value that is not a valid int8.
 procedure getNumber(prompt: string);
 begin getNumber;
